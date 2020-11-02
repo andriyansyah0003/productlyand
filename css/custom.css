@@ -1,0 +1,42 @@
+.btn-primary {
+    background: #ff9900;
+    border: 0px;
+    padding: 15px 34px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #bb7712;
+    border: 0px;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid #bcd0e5;
+    color: #173a56;
+    padding: 15px 34px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid #4d565f;
+    color: #173a56;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
+
+.content1 .bg {
+    background-image: url(../image/Bg.png);
+    background-size: cover;
+
+}
